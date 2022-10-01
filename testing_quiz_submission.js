@@ -16,10 +16,15 @@ document.getElementById("submit_answer").onclick = function (event) {
 document.getElementById("submit_answer").onclick = function (event) {
     event.preventDefault();
     if (document.getElementById("song_1").checked) {
-        document.getElementById("answer_check").innerHTML = "Correct!";
+        document.getElementById("answer_check").innerHTML = "Correct :)";
         input === true;
     } else {
         document.getElementById("answer_check").innerHTML = "Incorrect :(";
         input === false;
     }
 }
+/*
+document.getElementById("submit_answer").onclick = function (event) {
+    event.preventDefault();
+    document.getElementById("replace_question").innerHTML = "";
+} */
