@@ -19,6 +19,7 @@ document.getElementById("button").onclick = function () {
 }
 
 document.getElementById("begin").onclick = function () {
-    document.getElementById().innerHTML = "What was the #1 Hot 100 song that topped the charts in the year 2005?"
+    document.getElementById("question_place").innerHTML = "What was the #1 Hot 100 song that topped the charts in the year 2005?"
+    document.getElementById("button").innerHTML = '"Feel Good Inc." by Gorillaz'
 }
 
