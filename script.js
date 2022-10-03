@@ -12,14 +12,16 @@ document.getElementById("button").onclick = function () {
             setTimeout(function() {
                 document.getElementById("timer").innerHTML = "Your time has run out!";
                 document.getElementById("begin").innerHTML = "Your score was " + varIABLE_for_Score;
-                document.getElementById("scorebtn").innerHTML = "Enter your initials and to see your score on the scoreboard.";
+                document.getElementById("scorebtn").innerHTML = "Enter your initials to see your score on the scoreboard.";
             });
         }
     }, 1000);
 }
 
 document.getElementById("begin").onclick = function () {
-    document.getElementById("question_place").innerHTML = "What was the #1 Hot 100 song that topped the charts in the year 2005?"
-    document.getElementById("button").innerHTML = '"Feel Good Inc." by Gorillaz'
+    document.getElementById("begin").style.display = "none";
+    document.getElementById("scorebtn").style.display = "none";
 }
+
+
 
